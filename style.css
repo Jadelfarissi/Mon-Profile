@@ -1,0 +1,90 @@
+body{
+	color: black;
+	background: lavender;
+	text-align: center;
+	font-family: 'Lora', serif;
+	font-size: 22px;
+	font-weight: lighter;
+}
+.box{
+	background: white;
+	padding:  30px;
+	margin: 40px 200px 20px 200px;
+	border-radius: 30px;
+}
+
+.liens {
+	list-style: none;
+	padding-left: 0px;
+}
+.liens i {
+	font-size: 50px;
+}
+
+
+h1, h2 {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	font-size: 40px;
+}
+
+h2{
+	font-size: 30px;
+}
+
+p{
+	color: black;
+	font-size: 18px;
+}
+
+.profil {
+	background-color: lavender;
+	color: #000000;
+	padding: 15px 20px;
+	border-radius: 4px;
+	box-shadow: 4px 4px 2px 1px #cfc5c4;
+}
+
+.profil:hover {
+	background-color: #B6B6D1;
+	color: gray;
+	box-shadow: 4px 4px 2px 1px #b8b1b0;
+}
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #6B72E1;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+img{
+	border-radius: 8px;
+	max-width: 500px;
+	max-height:390px;
+}
+
+.format {
+	width: 720px;
+	margin: 30px auto;
+}
+
+@media (max-width:  960px) {
+	.format{
+		width: 720px;
+	}
+}
+
+@media (max-width:  720px) {
+	.format{
+		width: 500px;
+	}
+}
+
+@media (max-width:  540px) {
+	.format{
+		width: 300px;
+	}
+}
